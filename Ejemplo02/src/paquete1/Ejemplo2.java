@@ -32,6 +32,7 @@ public class Ejemplo2 {
         System.out.println("Ingrese nombre de asignatura 2");
         entrada.nextLine(); // limpieza de buffer
         nombreAsignatura2 = entrada.nextLine();
+        // Se debe hacer una limpieza de buffer cuando se cambia de decimal a cadena para recuperar una linea
         System.out.println("Ingrese nota de asignatura 2");
         notaAsignatura2 = entrada.nextDouble();
         
