@@ -28,5 +28,9 @@ public class Ejemplo05 {
                 "\n"+ nacimiento); */
         System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
         System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);   
+        /*
+        El \t sirve para dar un espacio entre las dos variables como un tabulador
+        El \n sirve para saltar la linea entre dos variables sin usar otro println
+        */
     }
 }
